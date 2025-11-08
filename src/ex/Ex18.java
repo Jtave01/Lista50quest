@@ -2,7 +2,7 @@ package ex;
 
 import java.util.Scanner;
 
-public class Ex19 {
+public class Ex18 {
     private static final Scanner sc = new Scanner(System.in);
     
     static int[] gerar(int n){
@@ -11,15 +11,7 @@ public class Ex19 {
         
         for(int i = 0; i < arr.length; i++){
             System.out.println("Entre com o numero a adicionar ");
-            int num = sc.nextInt();
-            
-            while(num < 0 || num > 1000){
-                 
-                System.out.println("Invalido");
-                 System.out.println("Entre com o numero a adicionar ");
-                 num = sc.nextInt();
-            }
-            arr[i] = num;
+            arr[i] = sc.nextInt();
         }
         
         return arr;
@@ -71,5 +63,4 @@ public class Ex19 {
 
         System.out.println("A soma dos numeros e " + soma(arr));
     }
-    
 }
