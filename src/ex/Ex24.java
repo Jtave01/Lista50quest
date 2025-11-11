@@ -22,6 +22,7 @@ public class Ex24{
                 loop = -1;
             }
         } 
+        
         media = soma/count;
         System.out.println("A media das nota e " + media);
     }
