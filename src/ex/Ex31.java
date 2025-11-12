@@ -25,7 +25,7 @@ public class Ex31 {
         double totalNota = sc.nextDouble();
         
         
-        double troco = soma - totalNota;
+        double troco =  totalNota - soma;
         
         int auxCont = 1;
 
